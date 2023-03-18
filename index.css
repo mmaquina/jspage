@@ -1,0 +1,24 @@
+img {
+    border-radius: 15px;
+    
+}
+body {
+    background-color: rgb(151, 151, 151);
+    padding-left: 3em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+li {
+	padding: 1rem 1rem 1rem;
+	border-radius: 1.5rem;
+	background: peachpuff;
+    font-family: monospace;
+    display: block;
+    width: max-content;
+}
+
+li + li{
+	margin-top: .25rem;
+}
+
