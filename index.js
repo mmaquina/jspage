@@ -114,12 +114,16 @@ const projects = [
 container = document.getElementById("container");
 
 projects.forEach(project => {
-    container.innerHTML +=  `<h2>${project.title}</h2>`;
-    container.innerHTML += `<ul>`;
+    let card =  `<h2>${project.title}</h2>
+                <ul>`;
+
     project.details.forEach(detail => {
-        container.innerHTML +=  `<li>${detail}</li>`;
+        card +=  `<li>${detail}</li>`;
     });
-    container.innerHTML += `</ul>`;
-    container.innerHTML += `<img src="${project.image}" alt="pic">`;
-    container.innerHTML += `<p>${project.description}</p>`;
+    
+    card += `</ul>
+            <img src="${project.image}" alt="pic">
+            <p>${project.description}</p>`;
+
+    container.innerHTML += card;
 });
