@@ -3,9 +3,12 @@ img {
     
 }
 body {
-    background-color: palegoldenrod;
+    background-color: peru;
     padding-left: 3em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 1080px; 
+	margin: 0 auto !important; 
+	float: none !important; 
 }
 
 
@@ -26,6 +29,9 @@ li + li{
 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 4.5em;
+    font-weight: bolder;
+    font-stretch: wider;
+    font-variant: small-caps;
     letter-spacing: -1px;
     background-color: black;
     color: peachpuff;
@@ -34,7 +40,6 @@ h1 {
 #container{
     display: flex;
     flex-wrap: wrap;
-    
     margin: auto;
 }
 
